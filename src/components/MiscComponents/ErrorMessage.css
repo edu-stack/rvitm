@@ -1,0 +1,27 @@
+.error-message {
+    position: fixed;
+    top: 11%;
+    left: 40%;
+    right:40%;
+    background-color: #ffe3e3;
+    border: 1px solid #ff7f7f;
+    border-radius: 4px;
+    color: #ff7f7f;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    min-width: 150px;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+  }
+  
+  .error-message.show {
+    opacity: 1;
+  }
+  

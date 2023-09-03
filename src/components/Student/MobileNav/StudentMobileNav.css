@@ -1,0 +1,107 @@
+
+
+.active-button{
+    color: #9c27b0;
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    border-top: 2px solid #9c27b0;
+    
+    }
+    
+    .active-button:hover{
+    color: #9c27b0;
+    
+    }
+
+
+
+.mobile-bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    z-index: 1000 ;
+
+    display: flex;
+    
+  
+    border-top: 1px solid #c1c1c1 ;
+    background-color: rgb(250, 250, 250);
+    backdrop-filter: blur(30px);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    max-height: 70px ;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    box-shadow: 0 -4px 5px rgba(0,0,0,.1);
+  }
+  .mobile-bottom-nav__item {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 12px;
+    max-width: 20%;
+    min-width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  
+  .mobile-bottom-nav__item-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  
+
+  
+  .inactive-button{
+  color: #343a40;
+  border-top: 2px solid white ;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  
+  }
+  
+  .inactive-button:hover{
+  color: #343a40;
+  
+  }
+
+
+  .course-active-button{
+    color: #9c27b0;
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #9c27b0;
+    
+    }
+    
+    .course-active-button:hover{
+    color: #9c27b0;
+    
+    }
+
+    .course-inactive-button{
+      color: #343a40;
+      border-top: 2px solid white ;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 10px;
+      
+      }
+      
+      .course-inactive-button:hover{
+      color: #343a40;
+      }

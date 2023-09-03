@@ -1,0 +1,31 @@
+.modal3dots {
+  width: 100%;
+  height: min(50%, 300px);
+  margin: auto;
+  padding: 0 2rem;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  position: fixed;
+
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+
+}
+
+.modal3dots ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.modal3dots li {
+  padding: 6px 6px;
+  font-size: 1.6rem;
+}

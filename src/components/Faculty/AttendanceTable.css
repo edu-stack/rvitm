@@ -1,0 +1,150 @@
+.t-container {
+  justify-content: center;
+  margin: 0 auto;
+  width: 90%;
+  align-items: center;
+
+  border-radius: 5px;
+  margin-bottom: 100px;
+  margin-top: 80px;
+}
+
+
+
+.mtable {
+  justify-content: center;
+  margin: 0 auto;
+  overflow-x: auto;
+
+  overflow-x: auto;
+  border: 1px solid grey;
+  border-radius: 10px;
+  font-size: 11px;
+}
+
+
+.mtable th,
+td {
+  border: 1px solid #a5a5a5;
+  padding: 8px;
+  text-align: center;
+
+  white-space: break-spaces;
+}
+
+.mtable th {
+  background-color: #f2f2f2;
+
+  font-weight: bold;
+}
+
+.mtable tr:nth-child(even) {
+  background-color: rgba(127, 106, 152, 0.3);
+}
+
+.mtable tr:hover {
+  background-color: none;
+}
+
+/* .attendance-presentt {
+  background-color: #b9e1b9;
+  
+  
+}
+
+.attendance-absentt {
+  background-color: #f5b7b1;
+}  */
+
+.atttable {
+  width: 90%;
+  max-width: 1200px;
+  position: relative;
+}
+
+.table-container {
+  overflow: auto;
+  max-height: 500px; /* Adjust the maximum height as needed */
+}
+
+
+
+.sub-dropdown {
+  padding: 5px;
+  border-radius: 4px;
+  height: 40px;
+  border: 1px solid #ccc;
+  background-color: white;
+  width: 100%;
+  font-size: 15px;
+  color: black;
+}
+
+
+.empty-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px; /* Adjust the height as needed */
+  background-color: #f5f5f5;
+}
+
+.empty-table__message {
+  font-size: 18px;
+  color: #555;
+  text-align: center;
+}
+
+.custom-table {
+  margin-top: 20px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.responsive-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  background-color: #f1f1f1;
+  z-index: 1;
+}
+
+.table-row:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.odd-row {
+  background-color: #f9f9f9;
+}
+
+.even-row {
+  background-color: #ffffff;
+}
+
+.table-header,
+.table-data {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.table-sticky {
+  position: sticky;
+  left: 0;
+  background-color: #f1f1f1;
+  z-index: 2;
+}
+
+@media screen and (max-width: 600px) {
+  .table-header,
+  .table-data {
+    padding: 6px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,9 @@
+.HomeTop{
+    position: fixed;
+    top: 0;
+    min-height: 40%;
+    width: 100%;
+    background-color: #e3d1e5;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+}

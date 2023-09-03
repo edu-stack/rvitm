@@ -1,0 +1,15 @@
+.CourseMaterial {
+    
+    height: fit-content;
+    overflow: auto;
+
+  }
+  .CourseMaterial td,
+  th {
+    white-space: pre-line;
+  }
+
+  /* CourseMaterial.css */
+.odd-row {
+  background-color: #f0f0f0; /* Grey color for odd rows */
+}
